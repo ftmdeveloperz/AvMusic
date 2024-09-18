@@ -34,8 +34,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and privacy links
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NexGenBots")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/NexGenSpam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ftmbotz")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ftmbotzsupport")
 PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
 
 # Spotify credentials
@@ -78,14 +78,10 @@ SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
 
-# Platinum users and subscription settings
-PLATINUM_USERS = {
-    # user_id: subscription_end_date
-}
 
-SUBSCRIPTION_PLANS = {
-    'basic': {'limit': 2 * 1024 * 1024 * 1024},  # 2 GB
-    'platinum': {'limit': 10 * 1024 * 1024 * 1024},  # 10 GB
+# Platinum users with subscription end dates
+PLATINUM_USERS = {
+    # Example: 123456789: '2024-12-31'  # user_id: subscription_end_date
 }
 
 # Function to convert time to seconds
