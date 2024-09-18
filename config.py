@@ -29,7 +29,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # Upstream repository for updates
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ninzagamerz/AvMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ftmdeveloperz/AvMusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
