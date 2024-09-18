@@ -116,6 +116,10 @@ For a full list of commands, use `/help` in [telegram](https://t.me/AviaxBeatzBo
 
 To subscribe, please contact @ftmdeveloper.
 
+### How to Subscribe:
+- Contact the owner @ftmdeveloper for subscription details.
+
+
 ### Commands:
 - `/cloneftm` – Clone the bot (available only for Platinum Plan users).
 - `/addplatinum <user_id>` – Add a user to the Platinum Plan (admin-only).
