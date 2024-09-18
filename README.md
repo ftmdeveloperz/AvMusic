@@ -110,6 +110,15 @@ The Aviax Music Bot offers a range of commands to enhance your music listening e
 
 For a full list of commands, use `/help` in [telegram](https://t.me/AviaxBeatzBot).
 
+## Platinum Plan Subscription {In Version - 2.1 }
+
+**Platinum Plan** subscribers can clone the bot by using the `/cloneftm` command. They need to forward the bot token from [BotFather](https://t.me/BotFather), and the bot will guide them through the setup process.
+
+To subscribe, please contact @ftmdeveloper.
+
+### Commands:
+- `/cloneftm` – Clone the bot (available only for Platinum Plan users).
+- `/addplatinum <user_id>` – Add a user to the Platinum Plan (admin-only).
 ---
 
 ### 🔄 Updates & Support
